@@ -228,7 +228,7 @@ img{
   font-weight: var(--font-semi);
   border-radius: .5rem;
 }
-.resume{
+.button{
   display:left;
   background-color:var(--first-color);
   color:#fff;

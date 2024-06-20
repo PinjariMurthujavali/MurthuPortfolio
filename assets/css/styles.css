@@ -229,7 +229,7 @@ img{
   border-radius: .3rem;
 }
 .resume{
-  display:center;
+  display:left;
   background-color:var(--first-color);
   color:#fff;
   padding:.50rem 2.0;

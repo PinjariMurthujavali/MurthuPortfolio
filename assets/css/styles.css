@@ -224,7 +224,7 @@ img{
   display: left;
   background-color: var(--first-color);
   color: #fff;
-  padding: .45rem 2.0rem;
+  padding: .50rem 2.0rem;
   font-weight: var(--font-semi);
   border-radius: .3rem;
 }

@@ -228,6 +228,14 @@ img{
   font-weight: var(--font-semi);
   border-radius: .3rem;
 }
+.resume{
+  display:center;
+  background-color:var(--first-color);
+  color:#fff;
+  padding:.50rem 2.0;
+  font-weight:var(--font-semi);
+  border-radius:.3rem;
+}
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);
 }

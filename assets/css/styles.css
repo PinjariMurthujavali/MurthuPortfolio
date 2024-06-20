@@ -221,12 +221,12 @@ img{
 
 /*BUTTONS*/
 .button{
-  display: inline-block;
+  display: left;
   background-color: var(--first-color);
   color: #fff;
-  padding: .75rem 2.5rem;
+  padding: .45rem 2.0rem;
   font-weight: var(--font-semi);
-  border-radius: .5rem;
+  border-radius: .3rem;
 }
 .button:hover{
   box-shadow: 0 10px 36px rgba(0,0,0,.15);

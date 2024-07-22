@@ -12,6 +12,7 @@
 .section-title, .nav__link, .home__title, .about__subtitle, .skills__subtitle {
   animation: fadeIn 2s ease-in-out;
 }
+
 /* Keyframes for slide-in */
 @keyframes slideIn {
   from {
@@ -26,6 +27,7 @@
 .nav__menu {
   animation: slideIn 0.5s ease-in-out;
 }
+
 /* Keyframes for bounce */
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -43,11 +45,13 @@
 .button {
   animation: bounce 2s infinite;
 }
+
 /* Applying hover effect with transform */
 .nav__link:hover, .home__social-icon:hover, .work__img img:hover, .button:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
 }
+
 /* Keyframes for pulse */
 @keyframes pulse {
   0% {
@@ -65,27 +69,30 @@
 .home__social-icon, .footer__icon {
   animation: pulse 2s infinite;
 }
+
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
   --font-semi: 600;
 }
 
-/*===== Colores =====*/
+/*===== Colors =====*/
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
 }
 
-/*===== Fuente y tipografia =====*/
+/*===== Fonts and typography =====*/
 :root{
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
 }
+
 @media screen and (min-width: 768px){
   :root{
     --big-font-size: 3.5rem;
@@ -94,7 +101,7 @@
   }
 }
 
-/*===== Margenes =====*/
+/*===== Margins =====*/
 :root{
   --mb-1: 0.5rem;
   --mb-2: 1rem;
@@ -140,49 +147,6 @@ img{
   max-width: 100%;
   height: auto;
   display: block;
-}
-
-/*===== Keyframes for animations =====*/
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slideIn {
-  from {
-    transform: translateX(-100%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
-
-@keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
 }
 
 /*===== CLASS CSS ===== */
@@ -408,7 +372,7 @@ img{
 .skills__icon{
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
+  color: var (--first-color);
 }
 .skills__names{
   display: flex;
